@@ -1,0 +1,30 @@
+{
+  "4cea68a3-1706-4493-aa71-21948f0125e0": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1693/1.0.1693.3738/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://rebiscogroup.sharepoint.com/sites/Events": {
+        "dataSources": {
+          "YEP 2024 Guest List": {
+            "tableName": "e6a87e30-5477-4557-99ae-40698efda3d1"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "YEP 2024 Guest List"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4cea68a3-1706-4493-aa71-21948f0125e0"
+  }
+}
